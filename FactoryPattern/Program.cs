@@ -9,7 +9,7 @@
 
             ICallable console = ConsoleFactory.GetConsole(userConsole);
             console.Build();
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 }

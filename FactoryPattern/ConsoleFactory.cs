@@ -9,14 +9,14 @@ namespace FactoryPattern
 			{
 				case "xbox":
 					return new XBox();
-				case "Game Cube":
-				case "GameCube":
+				case "game cube":
+				case "gamecube":
 					return new GameCube();
-				case "Nintendo Switch":
+				case "nintendo switch":
 					return new NintendoSwitch();
-				case "PS":
-				case "Play Station":
-				case "PlasStation":
+				case "ps":
+				case "play station":
+				case "slasstation":
 					return new PlayStation();
 				default:
 					return new PlayStation();
